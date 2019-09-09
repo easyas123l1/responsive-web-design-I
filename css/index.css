@@ -76,9 +76,9 @@ header {
 
 header nav {
 	margin-top: 40px; 
-	width: 69.3%;
+  width: 69.3%;
+  display: flex;
 	justify-content: space-between;
-	display: flex;
 }
 
 header nav a {
@@ -590,5 +590,5 @@ input[type=submit]:hover {
     padding-top: 5%;
   }
 
-  
+
 }
