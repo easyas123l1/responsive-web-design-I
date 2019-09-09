@@ -507,3 +507,88 @@ input[type=submit]:hover {
 		padding: 0 0 0 0;
 	} 
 }
+
+@media only screen and (max-width: 500px) {
+  header img{
+    padding: 0;
+    margin: 0 auto;
+    padding-bottom: 2.5%;
+  }
+
+  .imgdiv {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 1px black solid;
+  }
+
+  header {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 2.5% 0;
+    border-bottom: 1px black solid; 
+    padding-bottom: 2.5%;
+  }
+
+  .top-content {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  
+  .cta {
+    margin-top: 5%;
+  }
+
+  .cta .cta-text button {
+    border: 1px double black;
+		font-size: 16px;
+		background: white;
+		width: 60%;
+		height: 32px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .text-content {
+    width: 100%;
+  }
+
+  .main-content .top-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-content .top-content h4 {
+    padding-top: 5%;
+  }
+
+  .main-content .bottom-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .main-content .bottom-content h4 {
+    padding-top: 5%;
+  }
+
+  
+}
